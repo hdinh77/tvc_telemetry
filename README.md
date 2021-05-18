@@ -1,7 +1,8 @@
 # TVC Telemetry Software Workstation
 
 ## To start the development app
- ```$ cd tvc-telemtry
+ ```
+    $ cd tvc-telemtry
     $ cd app
     $ npm run dev
 ```
