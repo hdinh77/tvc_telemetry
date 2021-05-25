@@ -64,6 +64,14 @@
   - when sending messages, must be in string or JSON format so use toString() or toJSON() functions
   - indicate a different port for data transmission between client + server since port 3000 hosts the React app ```app.listen(4001)```
 
+## App.js file for socket.io-client
+ - first, install the socket.io-client library into the app directory
+ - import the useEffect and useState components from React
+ - to use socket.io to receive data on the frontend, import the socketIOClient from the socket.io-client
+ - create a constant variable that holds the endpoint of where the data is streaming through, i.e. localhost with port 4001
+ - useState to create a setResponse function with an empty value
+ - then, useEffect to setResponse whenever a "portData" message is received
+
 ## Configurations for `package.json`
  - need to modify the scripts and dependencies for nodejs
  - there are two `package.json` files: one for creation of the React and server.js files, and one for running the Electron+React joint app
