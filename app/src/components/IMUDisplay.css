@@ -1,0 +1,9 @@
+.IMUDisplay {
+    text-align: center;
+    height: 65vh;
+    margin: 20px 3vw;
+    background-color:rgba(17, 17, 94, 0.5);
+    border-radius: 0.5%;
+    border: 2px solid lightseagreen;
+    display: flex;
+}

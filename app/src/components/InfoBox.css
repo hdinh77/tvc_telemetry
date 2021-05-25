@@ -1,0 +1,6 @@
+.InfoBox {
+    text-align: center;
+    height: 25vh;
+    display: flex;
+    padding: 1vw;
+}

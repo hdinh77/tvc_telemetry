@@ -1,0 +1,16 @@
+.GraphBar {
+    text-align: left;
+    width: 25vw;
+    height: 100vh;
+    position: relative;
+    background-color:rgba(17, 17, 94, 0.5);
+    /*border-left: 1px solid white;*/
+}
+
+.state {
+    text-align: center;
+    border: 3px solid lightseagreen;
+    margin: 20px 30px;
+    padding: 10px 5px;
+    font-size: 20px;
+}

@@ -1,0 +1,14 @@
+.MainContent {
+    text-align: left;
+    width: 75vw;
+    height: 100vh;
+    position: relative;
+}
+
+.name {
+    height: 10vh;
+}
+
+.break {
+    height: 0;
+}
