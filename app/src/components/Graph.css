@@ -1,0 +1,7 @@
+.Graph {
+    padding: 5px;
+    margin: 10px;
+    height: 24vh;
+    background-color: rgba(17, 17, 94, 0.45);
+    box-shadow: 0 3px 3px rgba(255, 255, 255, 0.1);
+}

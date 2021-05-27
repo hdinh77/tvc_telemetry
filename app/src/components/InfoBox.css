@@ -1,6 +1,7 @@
 .InfoBox {
     text-align: center;
-    height: 25vh;
+    height: 22vh;
     display: flex;
     padding: 1vw;
+    margin: 1vh;
 }

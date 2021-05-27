@@ -3,14 +3,27 @@
     width: 25vw;
     height: 100vh;
     position: relative;
-    background-color:rgba(17, 17, 94, 0.5);
+    background-color:rgba(17, 17, 94, 0.4);
     /*border-left: 1px solid white;*/
 }
 
 .state {
     text-align: center;
-    border: 3px solid lightseagreen;
-    margin: 20px 30px;
+    border: 3px solid #56d0fc;
+    /*margin: 20px 15px 20px 20px;*/
+    margin: 2vh 4vw;
     padding: 10px 5px;
     font-size: 20px;
+}
+
+.graphs {
+    display: flex;
+    flex-direction: column;
+}
+
+#button {
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin: auto;
 }

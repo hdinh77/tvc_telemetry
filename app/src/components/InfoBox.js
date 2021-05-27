@@ -5,7 +5,7 @@ import './InfoBox.css';
 function InfoBox() {
     return (
         <div className="InfoBox">
-            Info Box
+            <code>Info Box</code>
         </div>
     );
 }

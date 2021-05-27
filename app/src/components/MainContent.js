@@ -7,9 +7,7 @@ import InfoBox from "./InfoBox";
 function MainContent() {
     return (
         <div className="MainContent">
-            <code className="name">Rocket Name</code>
-            <div className="break"></div>
-            <div className="break"></div>
+            <div className="name">Rocket Name</div>
             <IMUDisplay />
             <InfoBox />
         </div>

@@ -2,8 +2,23 @@
     text-align: center;
     height: 65vh;
     margin: 20px 3vw;
-    background-color:rgba(17, 17, 94, 0.5);
+    background-color:rgba(17, 17, 94, 0.4);
     border-radius: 0.5%;
-    border: 2px solid lightseagreen;
+    border: 2px solid #56d0fc;
     display: flex;
+    position: relative;
+}
+
+.words{
+    width: 30%;
+    text-align: left;
+}
+
+.data {
+    width: 70%
+}
+
+#rocket {
+    height: 60%;
+    margin-top: 12vh;
 }
