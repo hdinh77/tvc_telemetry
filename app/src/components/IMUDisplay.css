@@ -9,13 +9,36 @@
     position: relative;
 }
 
+.title {
+    height: 20px;
+    position: absolute;
+    margin-left: 1vw;
+    margin-top: 5px;
+}
+
 .words{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 1vw;
     width: 30%;
     text-align: left;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(1);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.rocket {
+    width: 70%
 }
 
 .data {
-    width: 70%
+    font-size: 35px;
+}
+
+.description {
+    font-size: medium;
+    color: gray;
 }
 
 #rocket {

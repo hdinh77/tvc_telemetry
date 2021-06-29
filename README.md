@@ -19,6 +19,7 @@
  - express
  - socket.io, socket.io-client
  - serialport
+ - iconify/react, iconify-icons/flat-color-icons
 
 ## Setting up React with Electron
  - install the React dependencies ```npm i react```
@@ -83,3 +84,16 @@
   - add two configurations at the top of the file to reroute the build to the electron app:
     - `"homepage": "./"`
     - `"main": "./electron/main.js"`
+
+## Installing icons
+ - to use icons (such as for the battery symbols), install the "iconify" specific "iconify-icons/flat-color-icons" dependencies into the "app" directory of the project
+ `npm i @iconify/react @iconify-icons/flat-color-icons`
+ - then to use an icon, just import the library and icon into the component file
+ ```
+  import { Icon, InlineIcon } from '@iconify/react';
+  import highBattery from '@iconify-icons/flat-color-icons/high-battery';
+  ...
+  <Icon icon={highBattery} />
+ ```
+
+
