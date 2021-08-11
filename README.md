@@ -1,5 +1,7 @@
 # TVC Telemetry Software Workstation
 
+<img src="https://github.com/hdinh77/tvc_telemetry/blob/master/app/src/images/screenshot.JPG">
+
 ## To start the development app
  ```
     $ cd tvc-telemtry
